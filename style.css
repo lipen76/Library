@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: o;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+display: flex;
+width: 1440px;
+height: 90px;
+background-color: black;
+}
+.headtitle {
+    width: 294px;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Forum', serif;    
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 50px;
+    letter-spacing: 2%;
+}
