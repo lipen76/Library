@@ -1,4 +1,5 @@
 body {
+    height: auto;
     margin: 0;
     padding: o;
     width: 1440px;
@@ -78,4 +79,75 @@ background-color: black;
 .welcome {
     width: 1440px;
     height: 600px;
+}
+.about h2 {
+    width: 106px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 667px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.about h2::after {
+    content: '';
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+.about p {
+    width: 1440px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 1440px;
+    gap: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img {
+    width: 450px;
+    height: 560px;
+    margin-left: 15px;
+}
+.pagination_container {
+    display: flex;
+    flex-direction: row;
+    width: 68px;
+    height: 16px;
+    margin-top: 10px;
+    margin-left: 686px;
+}
+.pagination {
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+    padding: 5px;
+}
+.pagination_button button{
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.pagination_button button:focus {
+    background-color:#BB945F;
 }
