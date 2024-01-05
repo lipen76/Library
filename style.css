@@ -244,10 +244,10 @@ background-color: black;
     position: relative;
 }
 .content_area {
-width: 550px;
-height: 555px;
-border: 1px solid #000;
-position: relative;
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+    position: relative;
 }
 .staff_picks {
     height: 40px;
@@ -352,4 +352,146 @@ position: relative;
     position: absolute;
     bottom: -2px;
     right: 0;
+}
+.coffee_shop {
+    width: 1440px;
+    height: 841px;
+    margin-top: 20px;
+    padding: 20px, 20px, 40px, 20px;
+}
+.coffee_shop_title {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 610px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.coffee_shop_title::after {
+    content: '';
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.coffee_shop_description {
+    width: 1400px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.menu_section {
+    width: 1400px;
+    height: 520px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coffee_tea_menu {
+    width: 438px;
+    height: 520px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.deserts_cakes_menu {
+    width: 482px;
+    height: 520px;
+    margin-top: 20px;
+    left: 470px;
+}
+.coffee_tea_menu_title {
+    width: 235px;
+    height: 40px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    color:#BB945F;
+}
+.coffee_tea_menu_item {
+    width: 438px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 20px;
+}
+.coffee_tea_item_name{
+    width: 207px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;   
+}
+.coffee_tea_item_name::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.deserts_cakes_menu_title {
+    width: 235px;
+    height: 40px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    color:#BB945F;
+}
+.deserts_cakes_menu_item {
+    width: 438px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 20px;
+}
+.deserts_cakes_item_name{
+    width: 207px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;   
+}
+.deserts_cakes_item_name::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    position: absolute;
+    top: 50%;
+    left: 60%;
 }
