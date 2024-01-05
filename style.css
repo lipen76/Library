@@ -80,6 +80,10 @@ background-color: black;
     width: 1440px;
     height: 600px;
 }
+.about {
+    width: 1440px;
+    height: 837px;
+}
 .about h2 {
     width: 106px;
     height: 40px;
@@ -150,4 +154,202 @@ background-color: black;
 }
 .pagination_button button:focus {
     background-color:#BB945F;
+}
+.favorites {
+    width: 1440px;
+    height: 1439px;
+}
+.favorites h2 {
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 640px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.favorites h2::after {
+    content: '';
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.radio_title {
+    width: 234px;
+    height: 24px;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.radio_input {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 24px;
+    margin-top: 25px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.radio_button {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    outline: none;
+    appearance: none;
+}
+.radio_button:checked {
+    background-color: #000;
+}
+.radio_container label {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding-left: 20px;
+}
+.radio_button:checked + .radio_container label {
+    font-weight: 900;
+}
+.favorites_items_winter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 1150px;
+}
+.favorites_item1 {
+    width: 590px;
+    height: 555px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.favorites_item2 {
+    width: 590px;
+    height: 555px;
+    padding-left: 220px;
+    margin-top: 20px;
+    position: relative;
+}
+.content_area {
+width: 550px;
+height: 555px;
+border: 1px solid #000;
+position: relative;
+}
+.staff_picks {
+    height: 40px;
+    font-family: 'Forum', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+}
+.staff_picks::after {
+    content: '';
+    display: block;
+    background: #BB945F;
+    width: 60px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.book_title {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.book_describe {
+    width: 355px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.buy_button {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+.buy_button button {
+    width: 75px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Inter', serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+}
+.buy_button button:hover {
+    background-color: #BB945F;
+    border: none;
+}
+.own_button {
+    text-decoration: none;
+    list-style-type: none;
+    color: #BB945F;
+}
+.own_button button {
+    width: 75px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Inter', serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    color: #BB945F;
+}
+.book_img1 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+}
+.book_img2 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
 }
