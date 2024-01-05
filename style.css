@@ -495,3 +495,118 @@ background-color: black;
     top: 50%;
     left: 60%;
 }
+.contact {
+    width: 1440px;
+    height: 575px;
+    margin-top: 20px;
+}
+.contact_title {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 600px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.contact_title::after {
+    content: '';
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 1px;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.contact_data {
+    width: 1,400px;
+    height: 414px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact_details {
+    width: 503px;
+    height: 380px;
+}
+.map {
+    width: 696px;
+    height: 414px;
+}
+.contact_details_title {
+    width: 282px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-block-start: 0em;
+}
+.contact_phones {
+    width: 503px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-top: 40px;
+}
+.contact_phone {
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.senior_staff {
+    width: 351px;
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.senior_staff_title {
+    width: 138px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-block-end: 0em;
+}
+.senior_staff_details {
+    width: 351px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.senior_staff_details_info a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+}
+.senior_staff_details_info a:hover {
+    color:#BB945F;
+}
+.contact_phone:hover {
+    color: #BB945F;
+}
