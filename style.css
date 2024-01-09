@@ -610,3 +610,167 @@ background-color: black;
 .contact_phone:hover {
     color: #BB945F;
 }
+.library_card {
+    width: 1440px;
+    height: 614px;
+    margin-top: 20px;
+}
+.library_card_title {
+    width: 382px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 534px;
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.library_card_title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #BB945F;
+    margin-top: 20px;
+    margin-left: 162px;
+}
+.library_card_content {
+    display: flex;
+    width: 1440px;
+    height: 453px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.find_your_library_card {
+    width: 600px;
+    height: 453px;
+    margin-block-end: 0em;
+    margin-top: 20px;
+}
+.get_reader_card {
+    width: 456px;
+    height: 253px;
+    margin-right: 20px;
+}
+.find_your_library_card_title {
+    width: 334px;
+    height: 36px;
+    margin-left: 138px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-block-start: 0em;
+}
+.card_body {
+    width: 600px;
+    height: 387px;
+    border: 2px solid #BB945F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form_card {
+    width: 560px;
+    height: 272px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:#BB945F;
+}
+.form_card_title {
+    width: 294px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Forum', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.form_input input {
+    width: 520px;
+    height: 66px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.form_input input::placeholder {
+    width: 182px;
+    height: 50px;
+    padding-top: 50%;
+    padding-left: 20px;
+    font-family: 'Forum', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #8E8E8E;
+}
+.card_form_button button {
+    width: 242px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 179px;
+    padding: 10px, 40px, 10px, 40px;
+    border-radius: 2px;
+    border: 1px, solid, #000;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.card_form_button button:hover {
+    background-color: #BB945F;
+}
+.get_reader_card_title {
+    width: 220px;
+    height: 33px;
+    margin-left: 256px;
+    font-family: 'Forum', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.get_reader_card_description {
+    width: 456px;
+    height: 120px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: right;
+}
+.get_reader_card_buttons {
+    display: flex;
+    flex-direction: row;
+    width: 456px;
+    justify-content: end;
+}
+.get_reader_card_button button{
+    width: 75px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: solid;
+    margin-left: 20px;
+    background-color: #fff;
+    outline-style: none;
+    cursor: pointer;
+}
+.get_reader_card_button button:hover {
+    background-color: #BB945F;
+}
